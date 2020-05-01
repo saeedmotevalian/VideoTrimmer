@@ -24,10 +24,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation ('com.github.saeedmotevalian:VideoTrimmer:1.0.0') {
-//        compile.exclude group: 'android.media'
-//        exclude module: 'android.media'
-    }
+    implementation 'com.github.saeedmotevalian:VideoTrimmer:1.0.0'
 //    implementation project(':videotrimmer')
     implementation 'androidx.appcompat:appcompat:1.1.0'
 }
